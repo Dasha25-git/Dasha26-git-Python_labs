@@ -16,8 +16,7 @@
 
 
 
-![Скриншот6](images/lab01/image6.png)
-![Скриншот7](images/lab01/image7.png)
+
 ![Скриншот8](images/lab01/image8.png)
 
 
