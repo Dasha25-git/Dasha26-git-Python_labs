@@ -70,28 +70,7 @@
 В классе реализованы несколько методов изменения состояния: `mark_borrowed`, `mark_returned`, `mark_damaged`, `repair`, `mark_lost`. Они соответствуют требованию "метод изменения состояния" (например, activate/close/upgrade).
 
 
-## Скриншоты работы `demo.py`
-
-
-![Скрин1](images/lab01/image1.png)
-![Скрин2](images/lab01/image2.png)
-![Скрин3](images/lab01/image3.png)
-![Скрин4](images/lab01/image4.png)
-![Скрин5](images/lab01/image5.png)
-![Скрин6](images/lab01/image6.png)
-![Скрин7](images/lab01/image7.png)
-![Скрин8](images/lab01/image8.png)
-
-
-
-
-
-
-
-
-
-
-
+## Скриншот работы терминала `demo.py` 
 
 
 ![Скриншот8](images/lab01/image8.png)
