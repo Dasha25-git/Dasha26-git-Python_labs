@@ -93,6 +93,7 @@
 
 
 
+
 ![Скриншот8](images/lab01/image8.png)
 
 
