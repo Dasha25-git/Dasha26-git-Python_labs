@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="774" viewBox="0 0 1260 774">
+<rect width="100%" height="100%" rx="10" fill="#111827"/>
+<rect x="12" y="12" width="12" height="12" rx="6" fill="#ef4444"/>
+<rect x="32" y="12" width="12" height="12" rx="6" fill="#f59e0b"/>
+<rect x="52" y="12" width="12" height="12" rx="6" fill="#22c55e"/>
+<text x="24" y="50" font-family="Menlo, Consolas, monospace" font-size="15" fill="#e5e7eb">
+<tspan x="24" y="50">============ Сценарий 1. Printable как тип ============</tspan>
+<tspan x="24" y="72">- PRINT: «Война и мир», Лев Толстой, полка A-01, хранение 122.50 RUB</tspan>
+<tspan x="24" y="94">- PRINT: «Идиот», Фёдор Достоевский, полка B-14, хранение 51.20 RUB</tspan>
+<tspan x="24" y="116">- EBOOK: «Чистый код», формат PDF, размер 8.6 МБ, ссылка https://library.local/ebooks/чистый-код.pdf</tspan>
+<tspan x="24" y="138">- EBOOK: «Python. К вершинам мастерства», формат EPUB, размер 12.4 МБ, ссылка https://library.local/ebooks/python.-к-вершинам-мастерства.epub</tspan>
+<tspan x="24" y="160">- AUDIO: «Мастер и Маргарита», диктор Сергей Чонишвили, длительность 780 мин.</tspan>
+<tspan x="24" y="182">- AUDIO: «1984», диктор Александр Клюквин, длительность 645 мин.</tspan>
+<tspan x="24" y="204"></tspan>
+<tspan x="24" y="226">============ Сценарий 2. Comparable и универсальная сортировка ============</tspan>
+<tspan x="24" y="248">- EBOOK: «Чистый код», формат PDF, размер 8.6 МБ, ссылка https://library.local/ebooks/чистый-код.pdf</tspan>
+<tspan x="24" y="270">- AUDIO: «1984», диктор Александр Клюквин, длительность 645 мин.</tspan>
+<tspan x="24" y="292">- EBOOK: «Python. К вершинам мастерства», формат EPUB, размер 12.4 МБ, ссылка https://library.local/ebooks/python.-к-вершинам-мастерства.epub</tspan>
+<tspan x="24" y="314">- AUDIO: «Мастер и Маргарита», диктор Сергей Чонишвили, длительность 780 мин.</tspan>
+<tspan x="24" y="336">- PRINT: «Идиот», Фёдор Достоевский, полка B-14, хранение 51.20 RUB</tspan>
+<tspan x="24" y="358">- PRINT: «Война и мир», Лев Толстой, полка A-01, хранение 122.50 RUB</tspan>
+<tspan x="24" y="380"></tspan>
+<tspan x="24" y="402">============ Сценарий 3. Фильтрация коллекции по интерфейсам ============</tspan>
+<tspan x="24" y="424">Printable: 6</tspan>
+<tspan x="24" y="446">Comparable: 6</tspan>
+<tspan x="24" y="468">Borrowable: 6</tspan>
+<tspan x="24" y="490"></tspan>
+<tspan x="24" y="512">============ Сценарий 4. Borrowable без знания конкретного класса ============</tspan>
+<tspan x="24" y="534">- Печатная книга «Война и мир» выдана читателю Дарья.</tspan>
+<tspan x="24" y="556">- Читателю Дарья отправлена ссылка: https://library.local/ebooks/чистый-код.pdf.</tspan>
+<tspan x="24" y="578">- Читателю Дарья отправлена ссылка: https://library.local/ebooks/python.-к-вершинам-мастерства.epub.</tspan>
+<tspan x="24" y="600"></tspan>
+<tspan x="24" y="622">============ Сценарий 5. isinstance() и множественная реализация ============</tspan>
+<tspan x="24" y="644">Война и мир: Printable=True, Comparable=True, Borrowable=True</tspan>
+<tspan x="24" y="666">Идиот: Printable=True, Comparable=True, Borrowable=True</tspan>
+<tspan x="24" y="688">Чистый код: Printable=True, Comparable=True, Borrowable=True</tspan>
+<tspan x="24" y="710">Python. К вершинам мастерства: Printable=True, Comparable=True, Borrowable=True</tspan>
+<tspan x="24" y="732">Мастер и Маргарита: Printable=True, Comparable=True, Borrowable=True</tspan>
+<tspan x="24" y="754">1984: Printable=True, Comparable=True, Borrowable=True</tspan>
+</text>
+</svg>

@@ -1,0 +1,33 @@
+============ Сценарий 1. Printable как тип ============
+- PRINT: «Война и мир», Лев Толстой, полка A-01, хранение 122.50 RUB
+- PRINT: «Идиот», Фёдор Достоевский, полка B-14, хранение 51.20 RUB
+- EBOOK: «Чистый код», формат PDF, размер 8.6 МБ, ссылка https://library.local/ebooks/чистый-код.pdf
+- EBOOK: «Python. К вершинам мастерства», формат EPUB, размер 12.4 МБ, ссылка https://library.local/ebooks/python.-к-вершинам-мастерства.epub
+- AUDIO: «Мастер и Маргарита», диктор Сергей Чонишвили, длительность 780 мин.
+- AUDIO: «1984», диктор Александр Клюквин, длительность 645 мин.
+
+============ Сценарий 2. Comparable и универсальная сортировка ============
+- EBOOK: «Чистый код», формат PDF, размер 8.6 МБ, ссылка https://library.local/ebooks/чистый-код.pdf
+- AUDIO: «1984», диктор Александр Клюквин, длительность 645 мин.
+- EBOOK: «Python. К вершинам мастерства», формат EPUB, размер 12.4 МБ, ссылка https://library.local/ebooks/python.-к-вершинам-мастерства.epub
+- AUDIO: «Мастер и Маргарита», диктор Сергей Чонишвили, длительность 780 мин.
+- PRINT: «Идиот», Фёдор Достоевский, полка B-14, хранение 51.20 RUB
+- PRINT: «Война и мир», Лев Толстой, полка A-01, хранение 122.50 RUB
+
+============ Сценарий 3. Фильтрация коллекции по интерфейсам ============
+Printable: 6
+Comparable: 6
+Borrowable: 6
+
+============ Сценарий 4. Borrowable без знания конкретного класса ============
+- Печатная книга «Война и мир» выдана читателю Дарья.
+- Читателю Дарья отправлена ссылка: https://library.local/ebooks/чистый-код.pdf.
+- Читателю Дарья отправлена ссылка: https://library.local/ebooks/python.-к-вершинам-мастерства.epub.
+
+============ Сценарий 5. isinstance() и множественная реализация ============
+Война и мир: Printable=True, Comparable=True, Borrowable=True
+Идиот: Printable=True, Comparable=True, Borrowable=True
+Чистый код: Printable=True, Comparable=True, Borrowable=True
+Python. К вершинам мастерства: Printable=True, Comparable=True, Borrowable=True
+Мастер и Маргарита: Printable=True, Comparable=True, Borrowable=True
+1984: Printable=True, Comparable=True, Borrowable=True
